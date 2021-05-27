@@ -1,0 +1,76 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: #16A085;
+}
+.qutlar{
+    width: 1280px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.qutti{
+    width: 600px;
+    height: 500px;
+    background-image: url(./img/bicycle.png);
+    background-color: #fff;
+    background-size: contain;
+    box-shadow: rgba(2, 125, 125, 0.57) 10px 10px 20px 5px;
+    background-repeat: no-repeat;
+    border-radius:9px;
+    background-position: 30px 210px;
+}
+.boox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boox h1{
+    margin-left: 35px;
+}
+.boox img{
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+.boox img:hover{
+    -webkit-box-shadow: -2px 3px 43px -6px #000000; 
+    box-shadow: -2px 3px 43px -6px #000000;
+}
+.p{
+    text-align: center;
+}
+
+.li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.li P{
+    margin-right: 20px;
+    font-weight: bold;
+    
+    
+}
+.li P:hover{
+    -webkit-box-shadow: 5px 4px 30px -3px rgba(0,0,0,0.6); 
+    box-shadow: 5px 4px 30px -3px rgba(0,0,0,0.6);
+    
+}
+.box{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
